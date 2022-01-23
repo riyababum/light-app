@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box{
+    margin: 0 auto;
+    border: 6px solid black;
+    width:400px; height:400px;
+    position: relative;
+}
+.box input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width:70px; height:40px;
+    cursor: pointer;
+}
+
+.btn1{
+    position: absolute;
+    bottom:25px; left:30px;
+}
+.btn2{
+    position: absolute;
+    bottom:25px; right:30px; 
+}
+.circle1{
+    background-color: lightgray;
+    width: 90px; height:90px;
+    border-radius: 50%;
+    position: absolute;
+    top:25px; left:25px;
+}
+.circle2{
+    background-color: lightgray;
+    width: 90px; height:90px;
+    border-radius: 50%;
+    position: absolute;
+    top:25px; right:25px;
+}
+
+.circle1style{
+    background-color: yellow;
+    width: 90px; height:90px;
+    border-radius: 50%;
+    position: absolute;
+    top:25px; left:25px;
+}
+.circle2style{
+    background-color: yellow;
+    width: 90px; height:90px;
+    border-radius: 50%;
+    position: absolute;
+    top:25px; right:25px;
+}
